@@ -6,6 +6,14 @@ import routineBtn from "./components/routineBtn"
 // https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github
 
 function App() {
+    const Button = (
+        <>
+            <button>+</button>
+            <button>-</button>
+            <br/><br/>
+        </>
+    )
+
     return (
         <>
             <Header />
@@ -18,112 +26,69 @@ function App() {
             <h1>Tuesday/Thursday</h1>
 
             {/* <!-- To add a line break use the <br/> command --> */}
-            Test 
-            <div>
-            <routineBtn />
-
-            </div>
+            {/* <routineBtn /> */}
+            Test {Button}
 
             Standing Triceps
-            <button>+</button>
-            <button>-</button>
+            {Button}
             {/* <div id="button"></div> */}
-            <br/><br/>
 
             Regular Curls
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             21 Burn out Curls
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Pull down Tri's
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Partner Curls (1-10, 10-1)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Pull Down (Backwards)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Reverse Curl
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Dumbell Cross Front
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Military Press
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Up Right Row
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Lat Raisers
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Shrugs (Barbell and Dumbell)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Supine Extension (Tri's)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Dumbell Curls Hammer (Thumbs Up)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Dumbell (Tri's)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Dumbell Curl Regular (Palm Up)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Dumbell Press
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Pull Ups (narrow)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Jump Rope (10 minutes)
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             Speed Sqaures
-            <button>+</button>
-            <button>-</button>
-            <br/><br/>
+            {Button}
 
             <h1>Monday/Wednesday</h1>
         </>
