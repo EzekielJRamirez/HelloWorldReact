@@ -14,6 +14,20 @@ function App() {
         </>
     )
 
+    const hiit = (
+        <>
+            <form>
+                <label>Sets</label>
+                <input type="number"/>
+                <label>Reps</label>
+                <input type="number"/>
+                <label>Weight</label>
+                <input type="number"/>
+            </form>
+            <br/>
+        </>
+    )
+
     return (
         <>
             <Header />
@@ -27,68 +41,65 @@ function App() {
 
             {/* <!-- To add a line break use the <br/> command --> */}
             {/* <routineBtn /> */}
-            Test {Button}
-
             Standing Triceps
-            {Button}
-            {/* <div id="button"></div> */}
+            {hiit}
 
             Regular Curls
-            {Button}
+            {hiit}
 
             21 Burn out Curls
-            {Button}
+            {hiit}
 
             Pull down Tri's
-            {Button}
+            {hiit}
 
             Partner Curls (1-10, 10-1)
-            {Button}
+            {hiit}
 
             Pull Down (Backwards)
-            {Button}
+            {hiit}
 
             Reverse Curl
-            {Button}
+            {hiit}
 
             Dumbell Cross Front
-            {Button}
+            {hiit}
 
             Military Press
-            {Button}
+            {hiit}
 
             Up Right Row
-            {Button}
+            {hiit}
 
             Lat Raisers
-            {Button}
+            {hiit}
 
             Shrugs (Barbell and Dumbell)
-            {Button}
+            {hiit}
 
             Supine Extension (Tri's)
-            {Button}
+            {hiit}
 
             Dumbell Curls Hammer (Thumbs Up)
-            {Button}
+            {hiit}
 
             Dumbell (Tri's)
-            {Button}
+            {hiit}
 
             Dumbell Curl Regular (Palm Up)
-            {Button}
+            {hiit}
 
             Dumbell Press
-            {Button}
+            {hiit}
 
             Pull Ups (narrow)
-            {Button}
+            {hiit}
 
             Jump Rope (10 minutes)
-            {Button}
+            {hiit}
 
             Speed Sqaures
-            {Button}
+            {hiit}
 
             <h1>Monday/Wednesday</h1>
         </>
