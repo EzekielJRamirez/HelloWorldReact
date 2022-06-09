@@ -14,28 +14,48 @@ function App() {
         </>
     )
 
+    // https://www.w3schools.com/tags/att_input_type_number.asp
+    // learn how to make symetrical and asymetrical builds, in case
+    // all the sets were different weight or reps
     const hiit = (
         <>
             <form>
-                <label>Sets</label>
-                <input type="number"/>
-                <label>Reps</label>
-                <input type="number"/>
-                <label>Weight</label>
-                <input type="number"/>
+                {/* 
+                    https://www.geeksforgeeks.org/how-to-insert-spaces-tabs-in-text-using-html-css/
+                    single space --> &nbsp;
+                    two spaces --> &ensp;
+                    four spaces --> &emsp;
+
+                    in line style is done with double curly braces
+                    or I could make const to host the style
+                */}
+                <label>Sets&nbsp;</label>
+                <input type="number" min="0" style={{width: 60}}/>
+                <label>&emsp;Reps&nbsp;</label>
+                <input type="number" min="0" style={{width: 60}}/>
+                <label>&emsp;Weight&nbsp;</label>
+                <input type="number" min="0" style={{width: 60}}/>
+                &emsp;soft total
             </form>
             <br/>
         </>
     )
 
+    // will I need php to read and write from files?
+    // the files will help me build routines and call these
+    // routines in a method, the method would reduce overall
+    // line count
     return (
         <>
             <Header />
             <div>
                 <h1>FitMe</h1>
                 <button className="btn">Tuesday-Thursday</button>
+                <button className="btn">Monday-Wednesday</button>
+                <button className="btn">Cardio</button>
+                <button className="btn">profile --> routines-bodyInfo</button>
+                <button className="btn">friends --> buildTeam</button>
             </div>
-            hello
 
             <h1>Tuesday/Thursday</h1>
 
